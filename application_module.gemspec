@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = ApplicationModule::VERSION
   spec.authors       = ["Levente Bagi"]
   spec.email         = ["bagilevi@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.description   = %q{Classes to help breaking down Rails app into modules}
+  spec.summary       = %q{Classes to help breaking down Rails app into modules}
   spec.homepage      = ""
   spec.license       = "MIT"
 
@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.add_dependency "rails", "~> 3.2.11"
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 end

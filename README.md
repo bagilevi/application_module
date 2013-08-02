@@ -2,6 +2,8 @@
 
 This gem is meant to help with breaking down large Rails apps into modules.
 
+"!https://travis-ci.org/bagilevi/application_module.png!":https://travis-ci.org/bagilevi/application_module "!https://codeclimate.com/github/bagilevi/application_module.png!":https://codeclimate.com/github/bagilevi/application_module
+
 ## Installation
 
 Add this line to your application's Gemfile:

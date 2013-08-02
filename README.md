@@ -2,7 +2,7 @@
 
 This gem is meant to help with breaking down large Rails apps into modules.
 
-"!https://travis-ci.org/bagilevi/application_module.png!":https://travis-ci.org/bagilevi/application_module "!https://codeclimate.com/github/bagilevi/application_module.png!":https://codeclimate.com/github/bagilevi/application_module
+[![Build Status](https://travis-ci.org/bagilevi/application_module.png)](https://travis-ci.org/bagilevi/application_module) [![Code Climate](https://codeclimate.com/github/bagilevi/application_module.png)](https://codeclimate.com/github/bagilevi/application_module)
 
 ## Installation
 

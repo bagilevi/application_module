@@ -1,5 +1,5 @@
 require 'active_support/inflector'
-module Autoloading
+module ApplicationModule::Autoloading
   def autoload_file(filepath)
     klass_name = filepath[%r{([^/]+)\.rb$}, 1].camelize
     autoload klass_name.to_sym, filepath

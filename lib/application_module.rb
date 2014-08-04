@@ -1,5 +1,5 @@
 require "application_module/version"
-require 'autoloading'
+require 'application_module/autoloading'
 
 module ApplicationModule
   autoload :Controller, 'application_module/controller'
@@ -12,7 +12,7 @@ module ApplicationModule
       Pathname.new( caller.first[%r{^[^:]+}].sub(%r{\.rb$}, '') )
     )
     app_module.instance_eval do
-      extend Autoloading
+      extend ApplicationModule::Autoloading
       autoload_without_namespacing %w(
         models
         views
